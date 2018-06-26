@@ -1,4 +1,5 @@
-# Add  code here!
+# using trial division
 
-def prime?()
+def prime?(num)
+  
 end
