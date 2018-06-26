@@ -7,5 +7,5 @@ def prime?(num)
     num.abs % divisor == 0
   end
 
-  division_results.none?
+  attempted_divisions.none?
 end
