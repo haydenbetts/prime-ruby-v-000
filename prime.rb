@@ -10,5 +10,5 @@ def prime?(num)
     num.abs % divisor == 0
   end
 
-  division_results.any?
+  division_results.none?
 end
