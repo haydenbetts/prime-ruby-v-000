@@ -6,7 +6,7 @@ def prime?(num)
   return false if num.abs == 1
 
   trial_divisors = (2..num).to_a
-  trial_divisors.include? do |divisor|
+  trial_divisors.each do |divisor|
     !(num.abs % divisor == 0)
   end
 end
