@@ -7,8 +7,8 @@ def prime?(num)
 
   trial_divisors = (2..num).to_a
   division_results = trial_divisors.collect do |divisor|
-    !(num.abs % divisor == 0)
+    num.abs % divisor == 0
   end
 
-  division_results.detect?(true)
+  division_results.any?(true)
 end
